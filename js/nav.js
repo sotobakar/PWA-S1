@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.status == 200) {
               content.innerHTML = xhttp.responseText;
             } else if (this.status == 404) {
-              content.innerHTML = "<p>Halaman tidak ditemukan.</p>";
+              content.innerHTML = "<p>Not Found</p>";
             } else {
-              content.innerHTML = "<p>Ups.. halaman tidak dapat diakses.</p>";
+              content.innerHTML = "<p>Cannot be accessed</p>";
             }
           }
         };
