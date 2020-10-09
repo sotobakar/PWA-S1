@@ -1,4 +1,4 @@
-const CACHE_NAME = "profile-cache";
+const CACHE_NAME = "profile-cache-v1";
 var urlsToCache = [
   "./",
   "./nav.html",
