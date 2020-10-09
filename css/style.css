@@ -6,3 +6,11 @@
 .bold {
   font-weight: 700;
 }
+
+ul.topnav li a {
+  color: black !important;
+}
+
+.two {
+  font-size: 2em;
+}
